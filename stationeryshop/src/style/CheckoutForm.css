@@ -1,0 +1,44 @@
+.checkout-form-container {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  max-height: fit-content;
+}
+
+.checkout-form-container h2 {
+  margin-top: 0;
+}
+
+.checkout-form-container .form-group {
+  margin-bottom: 15px;
+}
+
+.checkout-form-container label {
+  display: block;
+  font-weight: bold;
+}
+
+.checkout-form-container input[type="text"],
+.checkout-form-container input[type="email"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.checkout-form-container button[type="submit"] {
+  background-color: #f11d1d;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3rem;
+  cursor: pointer;
+}
+
+.checkout-form-container button[type="submit"]:hover {
+  background-color: #f24646;
+  border-radius: 2rem;
+  
+}

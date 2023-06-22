@@ -1,0 +1,22 @@
+.navigation{
+    border: 2px solid red;
+    width: 15rem;
+    margin-top: 1rem;
+    padding-left: 4rem;
+    display: grid;
+    
+    
+}
+
+.Link {
+    display: inline-block;
+    margin-right: 10px;
+    color: rgb(4, 4, 4);
+    text-decoration:none;
+    
+  }
+  
+  .Link:hover {
+    text-decoration:brown;
+  }
+  

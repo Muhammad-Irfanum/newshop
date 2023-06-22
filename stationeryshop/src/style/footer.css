@@ -1,0 +1,74 @@
+  /* footer */
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    border: rgb(25, 21, 21);
+    background-color: rgb(87, 143, 145);
+    color: aliceblue;
+    width: 100%;
+    
+    
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .about,
+  .customer,
+  .menu,
+  .email,
+  .company {
+    flex-basis: 100%;
+    text-align: center;
+    padding: 1rem;
+    font-size: smaller;
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+  
+  }
+  
+  .about h5,
+  .customer h5,
+  .menu h5,
+  .email h5 {
+    margin-top: 0;
+    font-weight:bolder;
+    font-family:cursive;
+    font-size: large;
+
+  }
+  
+  .email form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .email form .d-flex {
+    margin-top: 1rem;
+    justify-content: center;
+  }
+  
+  .email form .d-flex input {
+    width: 65%;
+    
+    
+    
+  }
+  .item{
+    display: flex;
+  }
+  
+  
+  .btn1{
+    background-color: red;
+    border-radius: 1rem;
+    width: 6rem;
+  }

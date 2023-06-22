@@ -1,0 +1,111 @@
+nav {
+
+  padding: 0.45px;
+  background-color: hsla(44, 28%, 55%, 0.277);
+
+
+}
+
+.navbar {
+  display: flex;
+  margin: 1rem 3rem;
+}
+
+.search {
+  display: flex;
+  width: 50%;
+  position: absolute;
+  right: 20%;
+}
+
+
+li {
+  display: inline;
+  text-decoration: none;
+  color: black;
+  align-items: center;
+
+}
+
+a {
+  display: inline-flex;
+  padding: 14px;
+  color: red;
+  
+
+}
+
+a:hover {
+  background-color: transparent;
+  color: black;
+
+}
+
+.btn {
+  background-color: rgb(14, 31, 18);
+  color: white;
+}
+
+.logoImg {
+  width: 250px;
+  cursor: pointer;
+
+}
+
+.searchBtn {
+  background-color: cadetblue;
+  border-radius: 1rem;
+  text-decoration: none;
+  padding: 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f1f1;
+}
+
+.link li {
+  list-style: none;
+  margin-right: 1rem;
+}
+
+.link li:last-child {
+  margin-right: 0;
+}
+
+.link a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  padding: 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.link a:hover {
+  color: #fc3b3b;
+}
+.icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+ 
+  border-radius: 50%;
+  
+  color: cadetblue; 
+  font-size: 3rem;
+}
+
+.icon:hover {
+  color: #db6d6d; 
+}
+
+.iconNo{
+  position: absolute;
+  right: 1rem;
+  top: 0.1em;
+  color: #000;
+  
+}

@@ -1,0 +1,118 @@
+.card {
+    display: flex;
+    border: 3px solid red;
+    border: 3px solid;
+
+
+}
+
+.cart {
+    margin: 1rem 3rem;
+    width: 500px;
+    height: 380px;
+    border: blueviolet solid;
+    padding: 1rem;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 40rem;
+    border: 2px solid;
+    background-color: rgb(239, 237, 234);
+
+}
+
+.brandname {
+
+    padding: 1rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.price {
+
+    padding: 0rem 1rem;
+
+}
+
+.butnsec {
+
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+button {
+    color: aliceblue;
+    width: 200px;
+}
+
+.b1 {
+    background-color: rgb(245, 57, 57);
+    padding: 0rem;
+    border-radius: 2rem;
+    height: 2.55rem;
+
+}
+
+.b2 {
+    background-color: rgb(37, 42, 40);
+    padding: 0rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    color: whitesmoke;
+    height: 2.55rem;
+
+
+}
+
+.b2:hover {
+    background-color: rgb(189, 185, 185);
+    border-radius: 3rem;
+}
+
+.checkoutForm {
+    background-color: rgb(193, 19, 19);
+
+
+
+}
+
+.quntity {
+    display: flex;
+
+}
+
+.addBtn {
+    border: solid;
+    color: black;
+    width: 3rem;
+    position: relative;
+    left: 8rem;
+
+}
+
+.deleteBtn {
+    color: black;
+    border: solid;
+    width: 3rem;
+    position: relative;
+    left: 10rem;
+
+}
+
+.deleteBtn:hover {
+    background-color: beige;
+}
+
+.addBtn:hover {
+    background-color: beige;
+}
+
+.img {
+
+    vertical-align: middle;
+    /* padding: 1rem; */
+    width: 6rem;
+    margin-left: 1rem;
+}

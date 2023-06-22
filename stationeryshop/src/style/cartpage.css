@@ -1,0 +1,44 @@
+.cart-page {
+  padding: 20px;
+  background-color: rgb(247, 200, 101);
+  margin: 2rem;
+  border-radius: 2rem;
+  width: 600px;
+  justify-content: center;
+}
+
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+.cart-table th,
+.cart-table td {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.cart-table th {
+  font-weight: bold;
+}
+
+.cart-table td:first-child {
+  width: 70%;
+}
+
+.cart-table td:last-child {
+  width: 30%;
+  text-align: right;
+}
+
+.cartPage {
+  justify-content: center;
+  display: flex;
+}
