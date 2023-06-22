@@ -7,7 +7,6 @@ import CheckoutForm from "./components/CheckoutForm";
 import MyAccount from "./components/MyAccount";
 import CardList from "./components/cardList";
 import { ProductContext } from "./contexts/Products.context";
-import { ProductContext } from "./contexts/Products.context";
 import CartPage from "./components/cartPage";
 import Header from "./components/header";
 import Footer from "./components/footer";
