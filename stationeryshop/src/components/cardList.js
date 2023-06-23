@@ -4,11 +4,10 @@ import { Link, useLocation } from 'react-router-dom';
 import { ProductContext } from '../contexts/Products.context';
 import Header from './header';
 import Footer from './footer';
-import Pen from "../ShopImges/b1.webp";
 import {getProducts} from '../Service/api'
 const CardList = (props) => {
-  const { cards, setCards } = useContext(ProductContext);
-  const [product, setProducts] = useState([]);
+  const { cards,  } = useContext(ProductContext);
+  const [ setProducts] = useState([]);
   useEffect(() => {
     const fetchProducts = async () => {
       const productsData = await getProducts();

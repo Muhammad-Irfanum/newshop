@@ -2,14 +2,14 @@ import { useContext, useEffect, useState } from "react";
 import Cart from './components/addCart';
 import { Routes, Route } from "react-router-dom";
 import Home from "./components/home";
+import Customer from "./components/customer";
 
 import CheckoutForm from "./components/CheckoutForm";
 import MyAccount from "./components/MyAccount";
 import CardList from "./components/cardList";
 import { ProductContext } from "./contexts/Products.context";
 import CartPage from "./components/cartPage";
-import Header from "./components/header";
-import Footer from "./components/footer";
+
 import { addAccount, getProducts} from "./Service/api";
 import AdminAddItem from "./components/adminAddItem";
 
@@ -37,10 +37,9 @@ const printProducts=async ()=>{
   const [selected, setSelected] = useState([{ title: "irfii" }]);
   const [collectiontype, setCollectiontype] = useState({ type: "types" });
 
-  // Create separate arrays for each collection type
+  
   const penCollection = objects.filter(card => card.type === "pen");
-  const brushCollection = objects.filter(card => card.type === "brushes");
-  // ... create arrays for other collection types
+
 
   function selection(id) {
     for (let i = 0; i < objects.length; i++) {
@@ -74,6 +73,7 @@ const printProducts=async ()=>{
           
         />} />
         <Route path="/CheckoutForm" element={<CheckoutForm />} />
+        <Route path="/customer" element={<Customer/>} /> 
         <Route exact path="/MyAccount" element={<MyAccount />} />
         <Route
           path="/cardList"

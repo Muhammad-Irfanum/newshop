@@ -1,12 +1,11 @@
 import { useState, useEffect } from "react";
 import "../style/category.css";
 import '../style/footer.css';
-import Footer from "./footer";
 import { Link } from "react-router-dom";
 import { getProducts } from "../Service/api";
 
 const Category = (props) => {
-  const [showMore, setShowMore] = useState(false);
+  const [ setShowMore] = useState(false);
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
@@ -19,9 +18,7 @@ const Category = (props) => {
     fetchProducts();
   }, []);
 
-  const handleClick = () => {
-    setShowMore(true);
-  };
+ 
   
   // Filter the products based on the selected collection names
   const filteredObjects = products.filter(

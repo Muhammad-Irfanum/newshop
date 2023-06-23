@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -21,18 +22,18 @@ const Footer = () => {
               <div className="customer">
                 <h5>Customer service</h5>
                 <ul className="nav flex-column">
-                  <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Exchange</a></li>
-                  <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Return</a></li>
+                  <li className="nav-item mb-2"><Link to="/" className="nav-link p-0 text-body-secondary">Exchange</Link></li>
+                  <li className="nav-item mb-2"><Link to="/" className="nav-link p-0 text-body-secondary">Return</Link></li>
                 </ul>
               </div>
               <div className="menu">
                 <h5>MAIN MENU</h5>
                 <ul className="nav flex-column">
-                  <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Our collection</a></li>
-                  <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Latest Deals</a></li>
-                  <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Stationery</a></li>
-                  <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Books</a></li>
-                  <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">About</a></li>
+                  <li className="nav-item mb-2"><Link to="/" className="nav-link p-0 text-body-secondary">Our collection</Link></li>
+                  <li className="nav-item mb-2"><Link to="/" className="nav-link p-0 text-body-secondary">Latest Deals</Link></li>
+                  <li className="nav-item mb-2"><Link to="/"className="nav-link p-0 text-body-secondary">Stationery</Link></li>
+                  <li className="nav-item mb-2"><Link to="/" className="nav-link p-0 text-body-secondary">Books</Link></li>
+                  <li className="nav-item mb-2"><Link to="/" className="nav-link p-0 text-body-secondary">About</Link></li>
                 </ul>
               </div>
 

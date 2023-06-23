@@ -4,7 +4,7 @@ import p2 from '../ShopImges/p2.webp';
 import p3 from '../ShopImges/p3.webp';
 
 const Carousel = () => {
-  const [images, setImages] = useState([p1, p2, p3]);
+  const [images] = useState([p1, p2, p3]);
   const [activeIndex, setActiveIndex] = useState(0);
 
   const handleSlideChange = (index) => {

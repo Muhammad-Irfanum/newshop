@@ -1,4 +1,4 @@
-import React, { useContext, useState, useEffect } from 'react';
+import React, { useContext, useEffect } from 'react';
 import '../style/cartpage.css';
 import Header from './header';
 import Footer from './footer';
@@ -11,7 +11,7 @@ function CartPage() {
     if (!Array.isArray(cartItems)) {
       setCartItems([]);
     }
-  }, []);
+  }, [cartItems]);
 
   const incrementQuantity = (index) => {
     setCartItems((prevItems) =>
