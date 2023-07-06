@@ -5,6 +5,11 @@ import cors from 'cors';
 import products from './routes/product.js';
 import account from './routes/account.js';
 
+import bodyParser from 'body-parser';
+import paymentRoutes from './routes/paymentRoutes.js';
+
+
+
 const app = express();
 const url =  "mongodb+srv://irfanum:123@cluster0.6zu534c.mongodb.net/";
 const connection = mongoose.connect(url , { useUnifiedTopology: true, useNewUrlParser: true });
@@ -23,6 +28,12 @@ app.use(express.urlencoded({extended: true}));
 
 app.use('/products',products);  
 app.use('/MyAccount',account);
+
+//PAyment INTEGRATION
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
+
+app.use('/', paymentRoutes);
 
 connection.then(()=>{
     console.log('connected to DB');

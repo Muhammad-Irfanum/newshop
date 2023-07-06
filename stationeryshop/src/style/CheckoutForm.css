@@ -35,10 +35,26 @@
   border: none;
   border-radius: 3rem;
   cursor: pointer;
+  margin-left: 10px;
 }
 
 .checkout-form-container button[type="submit"]:hover {
   background-color: #f24646;
   border-radius: 2rem;
   
+}
+
+.paymentbutton {
+  background-color: #f11d1d;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3rem;
+  cursor: pointer;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.paymentbutton:hover {
+  background-color: #f24646;
 }

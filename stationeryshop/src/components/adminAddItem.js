@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { addProduct } from '../Service/api';
 import '../style/adminAdditem.css'; // Import the CSS file
+import Header from './header';
 
 function AddProductForm() {
   const [formProduct, setFormProduct] = useState({
@@ -30,6 +31,7 @@ function AddProductForm() {
 
   return (
     <div>
+      <Header/>
       <div className='heading'>Add New Product</div>
       <form className="form-container" onSubmit={handleFormSubmit}>
         <div className="form-group">
@@ -107,7 +109,7 @@ function AddProductForm() {
             onChange={handleChange}
           />
         </div>
-        <button type="submit" className="add-button">Add Product</button> {/* Add the button element with the appropriate CSS class */}
+        <button type="submit" className="add-button">Add Product</button> 
       </form>
     </div>
   );

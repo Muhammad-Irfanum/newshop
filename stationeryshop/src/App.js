@@ -12,6 +12,9 @@ import CartPage from "./components/cartPage";
 
 import { addAccount, getProducts} from "./Service/api";
 import AdminAddItem from "./components/adminAddItem";
+import AdminDashboard from "./components/adminDashboard";
+import PaymentPage from "./components/payment";
+import Login from "./components/login";
 
 
 
@@ -84,10 +87,15 @@ const printProducts=async ()=>{
             selected={selected} />}
         />
         <Route path="/cartPage" element={<CartPage/>}/>
-       
+        <Route path= "/payment" element={<PaymentPage/>}/>
+        <Route path = "/adminDashboard" element = {<AdminDashboard/>}/>
+        <Route path="AdminAddItem" element= {<AdminAddItem/>} /> 
+        <Route path="login" element= {<Login/>}  />
         
       </Routes>
-      <AdminAddItem/>
+      
+      
+      
       
     </div>
   );

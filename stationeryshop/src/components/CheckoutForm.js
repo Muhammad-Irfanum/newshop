@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
  import "../style/CheckoutForm.css"; 
 import Header from "./header";
 import Footer from "./footer";
+import { Link } from "react-router-dom";
 const CheckoutForm = () => {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
@@ -106,6 +107,10 @@ const CheckoutForm = () => {
           />
         </div>
         <button type="submit">Place Order</button>
+        <button type="" className="paymentbutton">
+  <Link to="/payment">Pay Now</Link>
+</button>
+
       </form>
     </div>
     <Footer/>

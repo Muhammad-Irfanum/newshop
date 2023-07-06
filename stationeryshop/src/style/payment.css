@@ -1,0 +1,46 @@
+.payment-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .payment-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .payment-form label {
+    margin-bottom: 0.5rem;
+  }
+  
+  .payment-form input {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  
+  .payment-form button {
+    padding: 0.5rem 1rem;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: fit-content;
+  }
+  
+  .payment-response {
+    margin-top: 1rem;
+  }
+  
+  .payment-response p {
+    margin-bottom: 0.5rem;
+  }
+  
+  .payment-response a {
+    color: #4caf50;
+    text-decoration: none;
+  }
+  
